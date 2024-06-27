@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    background: linear-gradient(to right, #bacdf4, #bacdf4);
+  }
+  
+  .card-container {
+    background-color: rgb(45, 45, 48);
+    color: rgb(255, 254, 254);
+    padding: 2rem;
+    width: 20rem;
+    margin: 0.5rem;
+    border-radius: 1.4rem;
+    height: 0 auto;
+  }
+  
+  .card-top-navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-top-navigation li,
+  .card-top-navigation ul {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  
+  .card-top-navigation ul li {
+    margin-left: 10px;
+  }
+  
+  .user-image {
+    position: relative;
+    width: 100px;
+    height: 0 auto;
+    margin: 0 auto;
+  }
+  
+  .user-image img {
+    background-color: #ff7f3e;
+    border-radius: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .user-name,
+  .about-user {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .user-name {
+    font-size: 1.4rem;
+  }
+
+  .follow {
+    margin-left: 77px;
+    font-size: 0.8rem;
+  }
+  
+  .hire-me {
+    margin: 1.5rem auto;
+    display: block;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hire-me:hover {
+    background: radial-gradient(
+        #3fb2ff 0%,
+        #3fb2ff 5%,
+        #3fb2ff 45%,
+        #3fb2ff 60%,
+        #3fb2ff 90%
+    );
+  }
+  
+  .social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+ .icon {
+    position: relative;
+    top: 75%;
+    transform: translateY(-50%)
+    wid 100%;
+    text-align: center;
+}
+
+ .tombol{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #121111;
+    margin: 10px;
+    border-radius: 1rem;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #2980b9
+ }
+
+ .tombol i{
+    transition: 0.2s linear;
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 21px;
+}
+
+.tombol:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+
+
